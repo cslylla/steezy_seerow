@@ -1,0 +1,36 @@
+:root {
+  --background-color: #e5e5e5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: white;
+  margin: 40px;
+  padding: 0;
+}
+
+.hero {
+  background-image: url(/media/Skate_1080p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: 700;
+}
+
+.hero h2 {
+  font-size: 160px;
+  line-height: 130px;
+}
+
+.hero h1 {
+  font-size: 360px;
+  line-height: 360px;
+}
