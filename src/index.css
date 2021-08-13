@@ -16,21 +16,44 @@ html {
 
 .hero {
   background-image: url(/media/Skate_1080p.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
   color: white;
   font-weight: 700;
+  z-index: 1;
+}
+
+.logo {
+  margin-top: 35px;
+  margin-left: 40px;
 }
 
 .hero h2 {
   font-size: 160px;
   line-height: 130px;
+  margin-top: 230px;
+  margin-left: 40px;
+  padding: 0;
 }
 
 .hero h1 {
   font-size: 360px;
   line-height: 360px;
+  margin-left: 40px;
+}
+
+.media-control {
+  background: none;
+  border: none;
+  padding: 0;
+  position: absolute;
+  z-index: 2;
+  margin-top: -5%;
+  margin-left: 90.5%;
 }
