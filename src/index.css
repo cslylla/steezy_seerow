@@ -30,9 +30,13 @@ html {
   height: auto;
   margin: 0;
   padding: 0;
-  color: white !important;
+  color: white;
   font-weight: 700;
   z-index: 1;
+}
+
+.hero-text {
+  opacity: 0;
 }
 
 .hero-wrap {
