@@ -14,6 +14,12 @@ html {
   padding: 0;
 }
 
+.container {
+  font-family: "Space Grotesk", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .hero {
   background-image: url(/media/Skate_1080p.jpg);
   background-position: center center;
@@ -29,8 +35,9 @@ html {
   z-index: 1;
 }
 
-.logo {
-  margin-top: 35px;
+.hero h1 {
+  font-size: 360px;
+  line-height: 360px;
   margin-left: 40px;
 }
 
@@ -42,10 +49,29 @@ html {
   padding: 0;
 }
 
-.hero h1 {
-  font-size: 360px;
-  line-height: 360px;
+hr {
+  width: 44px;
+  color: black;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.intro {
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.logo {
+  margin-top: 35px;
   margin-left: 40px;
+}
+
+.main-title {
+  font-size: 116px;
+  font-weight: bold;
+  line-height: 100px;
+  margin-top: 133px;
 }
 
 .media-control {
