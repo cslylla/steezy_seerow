@@ -1,10 +1,7 @@
-:root {
-  --background-color: #e5e5e5;
-}
-
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  position: relative;
 }
 
 header {
@@ -18,8 +15,24 @@ header {
   position: relative;
 }
 
+header h1 {
+  font-size: 18rem;
+  line-height: 18rem;
+  font-weight: 700;
+  margin: 0;
+  margin-left: -1rem;
+}
+
+header h2 {
+  font-size: 8rem;
+  line-height: 6rem;
+  margin: 12rem 0 0 0;
+  font-weight: 700;
+}
+
 hr {
   width: 44px;
+  height: 5px !important;
   color: black;
   opacity: 1;
   margin-top: 30px;
@@ -54,21 +67,6 @@ html {
   opacity: 0.4;
 }
 
-header h1 {
-  font-size: 18rem;
-  line-height: 18rem;
-  font-weight: 700;
-  margin: 0;
-  margin-left: -1rem;
-}
-
-header h2 {
-  font-size: 8rem;
-  line-height: 6rem;
-  margin: 12rem 0 0 0;
-  font-weight: 700;
-}
-
 .intro {
   font-weight: bold;
   margin-top: 80px;
@@ -97,5 +95,49 @@ header h2 {
   padding: 0;
   position: absolute;
   margin-top: -1rem;
-  margin-left: 83rem;
+  margin-left: 76rem;
+}
+
+@media (max-width: 992px) {
+  header h1 {
+    font-size: 7rem;
+    line-height: 7rem;
+    margin-left: -0.5rem;
+  }
+  header h2 {
+    margin-top: 25rem;
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+  hr {
+    width: 28px;
+    height: 3px !important;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  html {
+    margin: 20px;
+  }
+  .intro {
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .main-title {
+    margin-top: 74px;
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+  .hero-text {
+    margin-left: 20px;
+  }
+  .logo {
+    margin-top: 15px;
+    max-width: 86px;
+    height: auto;
+  }
+  .media-control {
+    margin-top: -10rem;
+    margin-left: 25rem;
+  }
 }
