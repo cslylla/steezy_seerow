@@ -3,7 +3,6 @@ let video = document.getElementById("heroVideo");
 let buttonBg = document.getElementById("buttonSymbol")
 
 function playPause(){
-
     if (video.paused === false) {
     buttonBg.setAttribute("src", "/media/Play.svg");
     video.pause();

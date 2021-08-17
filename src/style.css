@@ -25,7 +25,7 @@ header h1 {
 header h2 {
   font-size: 8rem;
   line-height: 6rem;
-  margin: 12rem 0 0 2rem;
+  margin: 11rem 0 0 2rem;
   font-weight: 700;
 }
 
@@ -47,8 +47,8 @@ html {
 
 #heroVideo {
   position: relative;
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -65,8 +65,7 @@ html {
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
-  height: auto;
+  bottom: -40px;
 }
 
 .hero-text {
@@ -122,7 +121,7 @@ html {
   header h1 {
     font-size: 7rem;
     line-height: 7rem;
-    margin-left: -0.5rem;
+    margin-left: 1.6rem;
   }
   header h2 {
     margin-top: 25rem;
@@ -153,6 +152,7 @@ html {
   }
   .logo {
     margin-top: 15px;
+    margin-left: 20px;
     max-width: 86px;
     height: auto;
   }
