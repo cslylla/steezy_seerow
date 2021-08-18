@@ -82,10 +82,10 @@ html {
 }
 
 .main-title {
-  font-size: 110px;
+  font-size: 7.6vw;
+  line-height: 6.9vw;
   font-weight: 700;
-  line-height: 100px;
-  margin-top: 133px;
+  margin-top: 5.6vw;
   text-transform: lowercase;
 }
 
@@ -125,9 +125,9 @@ html {
     width: 5.6vw;
   }
   .main-title {
-    margin-top: 74px;
-    font-size: 3rem;
-    line-height: 2.5rem;
+    margin-top: 5.6vw;
+    font-size: 3.5vw;
+    line-height: 3.1vw;
   }
   .hero-text {
     margin-left: 20px;
